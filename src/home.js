@@ -31,9 +31,7 @@ description.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing el
 const root = document.querySelector('#content');
 
 export default () => {
-    while (root.hasChildNodes()) {
-        root.removeChild(root.firstChild);
-    }
+    const root = document.querySelector("#content");
     root.appendChild(title);
     root.appendChild(imageContainer());
     root.appendChild(subHeading);
