@@ -6,6 +6,7 @@ const title = createElement('h1', "Our Story");
 
 const img = document.createElement('img');
 img.src = team;
+img.classList.add("team");
 
 const subHeading = createElement('h2', "Our Business Philosophy");
 
