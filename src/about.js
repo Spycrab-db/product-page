@@ -1,5 +1,6 @@
 import team from './assets/team.jpg';
 import './css/about.css';
+import { createElement } from './util';
 
 const title = document.createElement('h1');
 title.textContent = "Our Story"

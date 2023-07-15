@@ -1,6 +1,7 @@
 import './css/index.css';
 import home from './home';
 import about from './about';
+import contact from './contact';
 
 const root = document.querySelector('#content');
 
@@ -22,4 +23,10 @@ aboutDiv.addEventListener('click', ()=>{
         root.removeChild(root.firstChild);
     }
     about();
+});
+contactDiv.addEventListener('click', ()=>{
+    while (root.hasChildNodes()) {
+        root.removeChild(root.firstChild);
+    }
+    contact();
 });

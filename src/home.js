@@ -1,5 +1,6 @@
 import bicycle1 from './assets/bicycle1.jpg';
 import './css/home.css'
+import { createElement } from './util';
 
 const title = document.createElement('h1');
 title.textContent = "The World's Greatest Product";
