@@ -9,7 +9,10 @@ module.exports = {
     mode: 'development',
     module: {
         rules: [
-            {test: /\.css$/i, use: ["style-loader", "css-loader"]}
-        ]
-    }
+            {test: /\.css$/i, use: ["style-loader", "css-loader"]},
+        ],
+    },
+    devServer: {
+        static: path.resolve(__dirname, 'dist'),
+    },
 }
