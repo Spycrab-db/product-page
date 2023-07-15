@@ -1,0 +1,21 @@
+.image-container{
+    display: flex;
+    font-size: 8rem;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+    & div{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: .2s;
+    }
+    & div:hover{
+        color: #d5ebff;
+        cursor: pointer;
+        translate: 0 -.2rem;
+    }
+}
+p{
+    margin-bottom: 3rem;
+}

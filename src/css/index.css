@@ -23,6 +23,9 @@ nav{
         translate: 0 -.2rem;
     }
 }
+img{
+    width: 50%;
+}
 p{
     margin: auto;
     width: 70%;
