@@ -1,4 +1,5 @@
 import util from './util';
+import './css/index.css';
 
 function component(x, y){
     const element = document.createElement('div');
